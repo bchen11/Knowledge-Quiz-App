@@ -214,6 +214,13 @@ Typical entities stored:
 - `score`
 - `createdAt`
 
+**API**
+- POST /generate-quiz  { topic, forceNew? }
+- POST /sumit-quiz {quizId, answers}
+- GET /quiz/{quizId}
+- GET/Attempt/{quizId}
+- GET/History
+
 
 ---
 
